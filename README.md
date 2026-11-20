@@ -1,4 +1,5 @@
 # Arpit Kumar — Portfolio
+Personal profile for Arpit Kumar.
 
 A responsive, dark-first personal portfolio built with semantic HTML, CSS, and vanilla JavaScript modules. There is no build step or framework.
 
