@@ -1,0 +1,15 @@
+# Local tooling and operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+
+# Dependencies and local deployment metadata
+node_modules/
+.vercel/
+.netlify/
+
+# Local environment files; never publish credentials
+.env
+.env.*
+!.env.example

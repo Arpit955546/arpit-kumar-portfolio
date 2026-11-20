@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#050b19">
+  <meta name="description" content="Arpit Kumar — B.Tech Computer Science & Engineering student graduating in 2027. Projects, skills, and coding profiles.">
+  <meta property="og:title" content="Arpit Kumar · Computer Science Student"><meta property="og:description" content="Projects, skills, coding profiles, and contact information."><meta property="og:type" content="website">
+  <title>Arpit Kumar · Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/dashboard.css">
+  <script type="application/ld+json" id="structured-data">{"@context":"https://schema.org","@type":"Person","name":"Arpit Kumar","jobTitle":"Computer Science Student"}</script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header dashboard-header" id="top">
+    <a class="brand" href="#home" aria-label="Arpit Kumar home"><span class="brand-mark">AK<span>.</span></span><span class="brand-name">ARPIT KUMAR</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#coding">Coding</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#experience">Achievements</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav>
+    <div class="header-actions"><button class="theme-toggle" aria-label="Switch to light theme" title="Toggle theme"><span class="theme-icon">☼</span></button><a class="button button-small button-primary header-resume" href="assets/resume.pdf" download data-resume-link>Download résumé ↓</a></div>
+  </header>
+  <main id="main">
+    <section class="dashboard-hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy reveal"><p class="hero-greeting">Hi, I’m <span class="wave">👋</span></p><h1 id="hero-title"><span data-first-name>Arpit</span> <span class="name-accent" data-last-name>Kumar</span></h1><p class="hero-role" data-profile-title>Computer Science Student · Aspiring Software Developer</p><p class="hero-summary" data-hero-summary></p><div class="hero-actions"><a class="button button-primary" href="#projects">View my projects <span>→</span></a><a class="button button-outline" href="assets/resume.pdf" download data-resume-link>Download résumé ↓</a></div><div class="hero-socials" data-social-links aria-label="Social links"></div></div>
+      <div class="hero-visual reveal"><div class="portrait-halo" aria-hidden="true"></div><div class="portrait-frame"><img src="assets/arpit-profile.jpg" alt="Arpit Kumar" width="600" height="750" fetchpriority="high"></div><div class="portrait-ring" aria-hidden="true"></div><div class="quick-stats panel"><h2><span class="stat-bars" aria-hidden="true">▮▮▮</span> Quick facts</h2><div><span>Projects</span><strong id="quick-project-count">3</strong></div><div><span>Graduating</span><strong id="quick-grad-year">2027</strong></div><div><span>Live demos</span><strong id="quick-live-count">1</strong></div></div><span class="hero-location">COMPUTER SCIENCE · INDIA</span></div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>CLASS OF 2027</span></div>
+    </section>
+
+    <section class="dashboard-overview section-shell" aria-label="Portfolio overview">
+      <article class="overview-card panel about-card reveal" id="about"><div class="overview-heading"><span class="overview-icon">●</span><h2>About me</h2></div><p class="about-card-copy" data-about-summary></p><p class="about-card-learning">Currently learning: <span data-current-learning></span></p><p class="about-card-meta"><b data-degree></b><span>·</span><span data-college></span></p><a class="button button-outline button-compact" href="#education">Know more →</a></article>
+      <article class="overview-card panel skills-card reveal" id="skills"><div class="overview-heading"><span class="overview-icon">⚙</span><h2>Technical skills</h2></div><div class="skills-grid" id="skills-grid"></div><div class="foundation-row"><span class="foundation-title">Core CS</span><div class="foundation-tags" id="foundation-tags"></div></div></article>
+      <article class="overview-card panel snapshot-card reveal"><div class="overview-heading"><span class="overview-icon">▮▮</span><h2>At a glance</h2></div><div class="snapshot-stats"><div><strong id="snapshot-projects">3</strong><span>Projects</span></div><div><strong id="snapshot-grad">2027</strong><span>Graduation</span></div><div><strong id="snapshot-skill-groups">4</strong><span>Skill areas</span></div></div><p class="snapshot-note">B.Tech · Computer Science &amp; Engineering</p></article>
+    </section>
+
+    <section class="section-shell dashboard-section" id="projects">
+      <div class="dashboard-section-heading reveal"><div><div class="section-title-icon">▰</div><div><p class="section-kicker">SELECTED WORK</p><h2>My projects</h2><p class="section-intro">A completed learning platform and two projects in development.</p></div></div><div class="project-filters" id="project-filters" role="group" aria-label="Filter projects"></div></div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </section>
+
+    <section class="section-shell dashboard-section" id="coding">
+      <div class="coding-panel panel reveal"><div class="coding-panel-heading"><div><div class="section-title-icon code-icon">&lt;/&gt;</div><div><p class="section-kicker">REAL PUBLIC PROFILE DATA</p><h2>Coding profiles</h2><p class="section-intro">Public profile statistics appear here when their usernames are set in the portfolio data.</p></div></div></div>
+        <div class="coding-grid leetcode-grid" id="coding-grid"></div>
+      </div>
+    </section>
+
+    <section class="section-shell dashboard-section details-grid" aria-label="Education and career details">
+      <article class="detail-panel panel reveal" id="education"><p class="section-kicker">EDUCATION</p><h2>My education</h2><div class="timeline"><article class="timeline-item"><div class="timeline-date"><span data-college-start>2023</span> — <span data-graduation></span></div><div class="timeline-marker"></div><div class="timeline-content"><h3 data-degree-heading>B.Tech Computer Science &amp; Engineering</h3><p data-college></p></div></article><article class="timeline-item"><div class="timeline-date"><span data-class-xii-year>2021</span></div><div class="timeline-marker"></div><div class="timeline-content"><h3>Class XII · <span data-class-xii>82%</span></h3><p data-school></p></div></article><article class="timeline-item"><div class="timeline-date"><span data-class-x-year>2019</span></div><div class="timeline-marker"></div><div class="timeline-content"><h3>Class X · <span data-class-x>83%</span></h3><p data-school></p></div></article></div></article>
+      <article class="detail-panel panel reveal" id="experience"><p class="section-kicker">EXPERIENCE &amp; ACHIEVEMENTS</p><h2>My journey</h2><div class="journey-item"><span class="journey-symbol">↗</span><div><h3 data-experience-title>Professional experience</h3><p data-experience-summary></p></div></div><div class="journey-item"><span class="journey-symbol">✦</span><div><h3 data-achievements-title>Certifications &amp; achievements</h3><p data-achievements-summary></p><ul class="certificate-list" data-certifications aria-label="LinkedIn certifications"></ul></div></div><div class="interest-list"><span>INTERESTS</span><div class="interest-chips" data-interests></div></div></article>
+    </section>
+
+    <section class="section-shell dashboard-section final-row" id="contact">
+      <article class="resume-card panel reveal" id="resume"><div><div class="overview-heading"><span class="overview-icon">▤</span><h2>Résumé</h2></div><p>View my education, skills, and project experience in one place.</p><div class="resume-actions"><a class="button button-primary" href="assets/resume.pdf" download data-resume-link>Download résumé ↓</a><a class="text-link" href="assets/resume.pdf" target="_blank" rel="noopener" data-resume-link>Open PDF ↗</a></div><p class="resume-note" data-resume-note></p></div><div class="resume-preview"><iframe class="resume-embed" src="assets/resume.pdf#toolbar=0&amp;navpanes=0" title="Arpit Kumar résumé PDF preview" loading="lazy"></iframe></div></article>
+      <div class="contact-card panel reveal"><form class="contact-form" id="contact-form"><div class="contact-form-heading"><span class="overview-icon">✉</span><div><h2>Contact me</h2><p>Have a question or want to collaborate? Feel free to reach out.</p></div></div><div class="form-grid"><label class="sr-only" for="name">Name</label><input id="name" name="name" autocomplete="name" required placeholder="Name"><label class="sr-only" for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="Email"><label class="sr-only" for="subject">Subject</label><input id="subject" name="subject" placeholder="Subject"><label class="sr-only" for="message">Message</label><textarea id="message" name="message" rows="2" required placeholder="Message"></textarea><button class="button button-primary" type="submit">Send message →</button></div><p class="form-note" id="form-note" aria-live="polite">Your email app will open with your message ready to send.</p></form><aside class="contact-info"><h3>Reach me</h3><div class="contact-links" data-contact-links></div><span class="contact-send-mark" aria-hidden="true">➤</span></aside></div>
+    </section>
+  </main>
+  <footer class="site-footer dashboard-footer"><a class="brand" href="#home"><span class="brand-mark">AK<span>.</span></span><span class="brand-name">ARPIT KUMAR</span></a><p>© <span id="current-year"></span> <span data-footer-name>ARPIT KUMAR</span>. All rights reserved.</p><a class="back-top" href="#top">BACK TO TOP ↑</a></footer>
+  <button class="scroll-top" aria-label="Scroll to top">↑</button>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project details">×</button><div id="dialog-content"></div></dialog>
+</body>
+</html>
